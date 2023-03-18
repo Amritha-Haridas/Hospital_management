@@ -1,0 +1,55 @@
+body{
+    font-family: verdana;
+}*{
+    margin:0;
+    padding:0;
+}
+header,footer{
+    position: absolute;
+    background-color:gold;
+    width: 100%;
+    color: white;
+}
+header h2{
+    position: absolute;
+    margin-top: 30px;
+    left: 70px;
+    color:darkorange;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height: 23vh; 
+    bottom: 2px;
+}
+footer h2{
+    position: absolute;
+    left: 43%;
+}
+.nav{
+    position: absolute;
+    width: 100;
+}
+.nav a{
+    position: relative;
+    left: 30%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer p{
+    position: absolute;
+    left: 48%;
+    bottom: 50px;
+    color: brown;
+}
+img {
+    width:300px;
+    height:300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
